@@ -26,6 +26,7 @@ Wade Desco      *Github
 Pamela Nola     *Github
 
 ChatGPT, W3 Schools, MDN, Tutorials [   ], UCI Bootcamp TA's
+Random Name Generator
 
 ## License:
 
