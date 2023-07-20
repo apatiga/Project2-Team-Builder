@@ -3,9 +3,9 @@ const express = require("express");
 const session = require("express-session");
 const SequelizeStore = require("connect-session-sequelize")(session.Store);
 const routes = require("./ctrls");
-const sequelize = require("./config/connection");
+const sequelize = require("./cfg/connection");
 const exphbs = require("express-handlebars");
-const hbs = exphbs.create({ helpers: require("./utils/helper") });
+const hbs = exphbs.create({ helpers: require("./util/helper") });
 // Creating express app and setting port
 
 const app = express();
