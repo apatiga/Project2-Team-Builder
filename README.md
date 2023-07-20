@@ -59,6 +59,24 @@ SOFTWARE.
 
 ## Features:
 
+## Built With 
+* JSON
+* Dotenv: 16.3.1
+* Express: 4.18.2
+* Connect-seesion-sequelize: 7.1.7
+* express-handlebars: 7.0.7
+* express-session: 1.17.3
+* handlebars: 4.7.7
+* mysql2: 3.5.2
+* nodemon: 3.0.1
+* sequelize: 6.32.1
+* faker-js/faker: 8.0.2
+* eslint: 8.45.0
+* eslint-config-prettier: 8.8.0
+* eslint-plugin-react: 7.32.2
+* prettier: 3.0.0
+
+
 
 ## How to Contribute:
 
