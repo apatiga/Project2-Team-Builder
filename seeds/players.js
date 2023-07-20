@@ -9,7 +9,7 @@ function chunkArray(array, chunkSize) {
     
     return result;
   }
-const data = fs.readFileSync('./Seeds/player_data.csv', "utf-8")
+const data = fs.readFileSync('./seeds/player_data.csv', "utf-8")
 console.log(data)
 const dataAsArray = data.split(',')
 const players = []

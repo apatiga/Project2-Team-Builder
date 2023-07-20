@@ -28,7 +28,9 @@ app.use(session(sess));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // IMPORTANT FOR PUBLIC FOLDERS - serving static files such as images from public directory
-app.use(express.static("public"));
+app.use(express.static("pblic"));
+//app.get('/', (req, res) => res.sendFile(path.join(__dirname, '/pblic/')));
+
 app.engine("handlebars", hbs.engine);
 app.set("view engine", "handlebars");
 
