@@ -8,7 +8,7 @@
     border-radius: 0.5em;
   }*/
 
-  *{
+  /*{
     box-sizing: border-box;
   }
 
@@ -24,7 +24,7 @@
   }
 
   body {
-    background-image: url('Project2-Team-Builder/public/images/basketball.jpg');
+    background-image: url('pblic/images/basketball.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,7 +42,7 @@
   }
   
   body {
-    background-image: url('Project2-Team-Builder/pblic/images/basketball.jpg');
+    background-image: url('images/basketball.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
