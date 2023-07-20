@@ -1,5 +1,5 @@
-const sequelize = require('../config/connection');
-const { Player } = require('../models');
+const sequelize = require('../cfg/connection');
+const { Player } = require('../mdls');
 
 const playerData = require('./players.json');
 
