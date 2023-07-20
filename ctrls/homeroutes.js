@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { Player, User } = require('../mdls');
-const withAuth = require('../utils/auth');
+const withAuth = require('../util/auth');
 
 router.get('/', async (req, res) => {
   try {

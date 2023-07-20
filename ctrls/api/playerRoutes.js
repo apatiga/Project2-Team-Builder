@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { Player } = require('../../mdls');
-const withAuth = require('../../utils/auth');
+const withAuth = require('../../util/auth');
 
 router.post('/', withAuth, async (req, res) => {
   try {
