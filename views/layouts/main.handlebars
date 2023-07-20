@@ -5,17 +5,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Team Builder</title>
+  {{#if logged_in}}
   <link rel="stylesheet" href="/css/dashboard.css">
+  {{else}}
+  <link rel="stylesheet" href="/css/homepage.css">
+  {{/if}}
 </head>
 
 <body>
   <header class="display-flex justify-space-between align-center p-2">
+    {{#if logged_in}}
     <h1>
        <a href="/">Team Builder</a>
+    </h1>
+    {{else}}
+    <h1>
+       Team Builder
       <Div>
-      Login Here or Register
+      <a href="/login">Login Here or Register</a>
       </Div>
     </h1>
+    {{/if}}
     <!-- Only display the logout button if the user is logged in -->
     {{#if logged_in}}
     <nav>
