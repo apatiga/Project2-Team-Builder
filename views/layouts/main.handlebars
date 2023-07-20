@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Team Builder</title>
-  {{#if logged_in}}
-  <link rel="stylesheet" href="/css/dashboard.css">
+  {{#if customCSS}}
+  <link rel="stylesheet" href="{{customCSS}}">
   {{else}}
   <link rel="stylesheet" href="/css/homepage.css">
   {{/if}}
