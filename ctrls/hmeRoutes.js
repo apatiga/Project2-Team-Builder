@@ -15,7 +15,7 @@ router.get('/', async (req, res) => {
     res.render('homepage', {
       players,
       logged_in: req.session.logged_in,
-      customCSS: '/css/dashboard.css' 
+      customCSS: '/css/homepage.css' 
     });
   } catch (err) {
     res.status(500).json(err);
