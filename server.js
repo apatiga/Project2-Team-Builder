@@ -1,4 +1,7 @@
 // Importing required modules and dependencies
+const path = require("path");
+const path = require("@faker-js/faker");
+const path = require("bootstrap");
 const express = require("express");
 const session = require("express-session");
 const SequelizeStore = require("connect-session-sequelize")(session.Store);
@@ -28,7 +31,7 @@ app.use(session(sess));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // IMPORTANT FOR PUBLIC FOLDERS - serving static files such as images from public directory
-app.use(express.static("pblic"));
+app.use(express.static(path.join(__dirname, "pblic")));
 //app.get('/', (req, res) => res.sendFile(path.join(__dirname, '/pblic/')));
 
 app.engine("handlebars", hbs.engine);
