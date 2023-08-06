@@ -1,92 +1,59 @@
-*.post-container {
-    transition: background-color 0.3s;
-  }
-  
-  .post-container:hover {
-    border-right: 1em solid #656565;
-    background-color: #b8cba2;
-    border-radius: 0.5em;
-  }*/
+:root {
+  --primary: #df662ebd;
+  --secondary: #110b07;
+  --tertiary: #ca7543d0;
+  --quatrinary: #6c6b67;
+  --light: #ebebeb;
+  --dark: #182c23;
+  --error: rgb(228, 46, 1);
+  --border-radius: 0.3rem;
+}
 
-  {
-    box-sizing: border-box;
-  }
+body {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: Arial;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;   
+  min-height: 100vh;
+}
 
-  header {
-    padding: 40px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    min-height: 100vh;
-    justify-content: flex-start;
-  }
+header {
+  padding: 40px;
+  text-align: center;
+  background: var(--primary);
+  color: var(--secondary);
+  border-bottom-style: solid;
+}
 
-  body {
-    background-image: url('pblic/images/basketball.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
 
-  /*:root {
-    --primary: #df662ebd;
-    --secondary: #110b07;
-    --tertiary: #ca7543d0;
-    --quatrinary: #6c6b67;
-    --light: #ebebeb;
-    --dark: #182c23;
-    --error: rgb(228, 46, 1);
-    --border-radius: 0.3rem;
+
+  
+  /* Responsive Features */
+  
+  @media screen and (min-width: 768px) {
   }
   
-  body {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    font-family: Arial;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;   
-    min-height: 100vh;
-    
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* CSS styles for tablets in landscape mode */
   }
   
-  header {
-    padding: 40px;
-    text-align: center;
-    background: var(--primary);
-    color: var(--secondary);
-    border-bottom-style: solid;
+  @media screen and (max-width: 767px) and (orientation: portrait) {
+    /* CSS styles for tablets in portrait mode */
   }
   
-  main {
-    display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
-  }*/
+  @media screen and (max-width: 767px) {
+    /* CSS styles for smartphones */
+  }
   
-  
-    
-    /* Responsive Features */
-    
-    @media screen and (min-width: 768px) {
-    }
-    
-    @media screen and (min-width: 768px) and (max-width: 1024px) {
-      /* CSS styles for tablets in landscape mode */
-    }
-    
-    @media screen and (max-width: 767px) and (orientation: portrait) {
-      /* CSS styles for tablets in portrait mode */
-    }
-    
-    @media screen and (max-width: 767px) {
-      /* CSS styles for smartphones */
-    }
-    
-    @media screen and (min-width: 1200px) {
-      /* CSS styles for large desktop screens */
-    }
+  @media screen and (min-width: 1200px) {
+    /* CSS styles for large desktop screens */
+  }

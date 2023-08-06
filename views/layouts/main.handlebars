@@ -8,26 +8,30 @@
   {{#if customCSS}}
   <link rel="stylesheet" href="{{customCSS}}">
   {{else}}
-  <link rel="stylesheet" href="/css/dashboard.css">
+  <link rel="stylesheet" href="/css/homepage.css">
   {{/if}}
+  <link rel="stylesheet" href="/css/bootstrap.min.css" />
 </head>
 
 <body>
   <header class="display-flex justify-space-between align-center p-2">
     {{#if logged_in}}
     <h1>
-       Team Builder
+       Welcome to the <em>Team Builder</em>
     </h1>
     {{else}}
     <h1>
-       Team Builder
+       Welcome to the <em>Team Builder</em>
       <Div>
-      <a href="/login">Login Here or Register</a>
+      <a href="/login">"click here" to Login or Register</a>
       </Div>
     </h1>
+    
     {{/if}}
     <!-- Only display the logout button if the user is logged in -->
     {{#if logged_in}}
+    <p>Please click on 15 players to choose your players based on position and rating to create your draft team.</p>
+    <p>At the bottom of the page, click the "Update Team" button to see your draft.  If you need to change it, click the "Back to team creation".</p>
     <nav>
       <button class="btn" id="logout">logout</button>
     </nav>
@@ -37,7 +41,7 @@
     {{{ body }}}
   </main>
   <footer>
-      
+
   </footer>
 
   <!-- Only include the logout script if the user is logged in -->
