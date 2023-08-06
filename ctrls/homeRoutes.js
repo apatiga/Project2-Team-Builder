@@ -4,18 +4,58 @@ const withAuth = require('../util/auth');
 
 router.get('/', async (req, res) => {
   try {
+    // Pass serialized data and session flag into template
+    res.render('homepage', {
+      logged_in: req.session.logged_in,
+      customCSS: '/css/homepage.css'
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+router.get('/players', async (req, res) => {
+  try {
+    if (!req.session.logged_in) {
+      res.redirect('/login');
+    }
+
     // Get all projects and JOIN with user data
-    console.log("I'm here");
     const playerData = await Player.findAll();
 
     // Serialize data so the template can read it
     const players = playerData.map((player) => player.get({ plain: true }));
-    console.log(players);
+
+    // Unique schools we are working with.
+    let schools = [];
+    for (let i = 0; i < players.length; i++) {
+      if (!schools.includes(players[i].high_school)) {
+        schools.push(players[i].high_school);
+      }
+    }
+
     // Pass serialized data and session flag into template
-    res.render('homepage', {
+    res.render('players', {
+      schools,
       players,
       logged_in: req.session.logged_in,
-      customCSS: '/css/homepage.css' 
+      customCSS: '/css/homepage.css'
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+router.get('/team', async (req, res) => {
+  const playerData = await Player.findAll();
+  const players = playerData.map((player) => player.get({ plain: true }));
+  const teamPlayers = players.filter((member) => req.session.team.includes(member.id));
+
+  try {
+    res.render('team', {
+      players: teamPlayers,
+      logged_in: req.session.logged_in,
+      customCSS: '/css/homepage.css'
     });
   } catch (err) {
     res.status(500).json(err);
@@ -54,7 +94,7 @@ router.get('/profile', withAuth, async (req, res) => {
 
     const user = userData.get({ plain: true });
 
-    res.render('profile', {
+    res.render('players', {
       ...user,
       logged_in: true,
     });
@@ -64,10 +104,9 @@ router.get('/profile', withAuth, async (req, res) => {
 });
 
 router.get('/login', (req, res) => {
-
   // If the user is already logged in, redirect the request to another route
   if (req.session.logged_in) {
-    res.redirect('/profile');
+    res.redirect('/players');
     return;
   }
 

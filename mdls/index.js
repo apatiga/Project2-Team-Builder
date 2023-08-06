@@ -10,4 +10,4 @@ Player.belongsTo(User, {
   foreignKey: 'user_id'
 });
 
-module.exports = { User, Player};
+module.exports = {User, Player};
