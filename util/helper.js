@@ -1,15 +1,8 @@
 module.exports = {
-    get_emoji: () => {
-      const randomNum = Math.random();
-      let book = "📗";
-  
-      if (randomNum > 0.7) {
-        book = "📘";
-      } else if (randomNum > 0.4) {
-        book = "📙";
+    ifeq: (a, b) => {
+      if (a === b) {
+        return true;
       }
-  
-      return `<span for="img" aria-label="book">${book}</span>`;
-    },
+      return false;
+    }
   };
-  

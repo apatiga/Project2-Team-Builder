@@ -1,0 +1,72 @@
+<style>
+    .players {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .school {
+        margin-left: 5px; 
+        margin-right: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .players {
+            flex-direction: column
+        }
+
+        .school {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+</style>
+<form class="form player-form">
+    <div class="players">
+        {{#each schools as |school|}}
+            <div class="school">
+                <div class="card" >
+                    <div>
+                        <!-- <h5 class="card-title">{{ school }}</h5>-->
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>{{ school }}</th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            {{#each ../players as |player|}}
+                                {{#if (ifeq player.high_school school) }}
+                                    <tr>
+                                        <td nowrap>
+                                            <input type="checkbox" class="team-member me-2" id="member-{{ player.id }}" name="team" value="{{ player.id }}" />
+
+                                            <label for="member-{{ player.id }}">{{ player.name }}</label>
+                                        </td>
+                                        <td>{{player.position}}</td>
+                                        <td>{{player.rating}}</td>
+                                    </tr>
+                                {{/if}}
+                            {{/each}}
+                        </table>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+
+        
+    </div>
+    <div class="mt-4 form-group">
+            <button class="btn btn-primary" type="submit">Update Team</button>
+        </div>
+</form>
+<div class="gif-container" style="opacity: 0; top: 0; left: 0; transition: opacity 1s; position: fixed; z-index: -1; width: 100%; height: 100vh; background-color: rgba(0, 0, 0, 0.2); display: flex; justify-content: center; align-items: center;">
+        <img src="./gifs/basketball-hot-three-pointer-2018.gif" alt="Loading..."/>
+        </div>
+    </div>
+
+<script src="./js/player.js"></script>

@@ -1,0 +1,387 @@
+[
+    {
+        "high_school": "Northwest High",
+        "jersey_number": "77",
+        "name": "Ferdie MacSuibhne",
+        "position": "Pt Guard",
+        "rating": "4"
+    }, {
+        "high_school": "Northwest High",
+        "jersey_number": "4",
+        "name": "Arnold Guillory",
+        "position": "Sm Fwd",
+        "rating": "3"
+    }, {
+        "high_school": "Northwest High",
+        "jersey_number": "32",
+        "name": "Manuel Leroux",
+        "position": "Sm Fwd",
+        "rating": "5"
+    }, {
+        "high_school": "Northwest High",
+        "jersey_number": "16",
+        "name": "Aidan Gagnex",
+        "position": "Center",
+        "rating": "4"
+    }, {
+        "high_school": "Northwest High",
+        "jersey_number": "24",
+        "name": "Firmin Favre",
+        "position": "Shoot Grd",
+        "rating": "4"
+    }, {
+        "high_school": "Northwest High",
+        "jersey_number": "39",
+        "name": "John Johnson",
+        "position": "Shoot Grd",
+        "rating": "3"
+    }, {
+        "high_school": "Northwest High",
+        "jersey_number": "22",
+        "name": "Michael Fox",
+        "position": "Center",
+        "rating": "5"
+    }, {
+        "high_school": "Northwest High",
+        "jersey_number": "46",
+        "name": "Jamie Scott",
+        "position": "Pt Guard",
+        "rating": "5"
+    }, {
+        "high_school": "Northwest High",
+        "jersey_number": "3",
+        "name": "Ezra Montgomery",
+        "position": "Power Fwd",
+        "rating": "3"
+    }, {
+        "high_school": "Northwest High",
+        "jersey_number": "29",
+        "name": "Bob LeCroux",
+        "position": "Shoot Grd",
+        "rating": "4"
+    }, {
+        "high_school": "Northwest High",
+        "jersey_number": "86",
+        "name": "Jaden Jameson",
+        "position": "Shoot Grd",
+        "rating": "5"
+    }, {
+        "high_school": "Northwest High",
+        "jersey_number": "23",
+        "name": "Zola Chevenkro",
+        "position": "Pt Guard",
+        "rating": "3"
+    }, {
+        "high_school": "Northwest High",
+        "jersey_number": "69",
+        "name": "Vince Campbell",
+        "position": "Shoot Grd",
+        "rating": "4"
+    }, {
+        "high_school": "Northwest High",
+        "jersey_number": "55",
+        "name": "Nick Wagner",
+        "position": "Center",
+        "rating": "5"
+    }, {
+        "high_school": "Northwest High",
+        "jersey_number": "89",
+        "name": "Jeffrey Banks",
+        "position": "Power Fwd",
+        "rating": "3"
+    }, {
+        "high_school": "Kennedy High",
+        "jersey_number": "70",
+        "name": "Brett Thornton",
+        "position": "Pt Guard",
+        "rating": "4"
+    }, {
+        "high_school": "Kennedy High",
+        "jersey_number": "63",
+        "name": "Christian Elliot",
+        "position": "Sm Fwd",
+        "rating": "3"
+    }, {
+        "high_school": "Kennedy High",
+        "jersey_number": "9",
+        "name": "Irene Drake",
+        "position": "Sm Fwd",
+        "rating": "5"
+    }, {
+        "high_school": "Kennedy High",
+        "jersey_number": "21",
+        "name": "Joseph Walker",
+        "position": "Center",
+        "rating": "4"
+    }, {
+        "high_school": "Kennedy High",
+        "jersey_number": "17",
+        "name": "Shenya Tamayo",
+        "position": "Shoot Grd",
+        "rating": "4"
+    }, {
+        "high_school": "Kennedy High",
+        "jersey_number": "40",
+        "name": "Alvin Waters",
+        "position": "Shoot Grd",
+        "rating": "3"
+    }, {
+        "high_school": "Kennedy High",
+        "jersey_number": "56",
+        "name": "Darren Potter",
+        "position": "Center",
+        "rating": "5"
+    }, {
+        "high_school": "Kennedy High",
+        "jersey_number": "82",
+        "name": "Austin Wise",
+        "position": "Pt Guard",
+        "rating": "5"
+    }, {
+        "high_school": "Kennedy High",
+        "jersey_number": "74",
+        "name": "Essie May",
+        "position": "Power Fwd",
+        "rating": "3"
+    }, {
+        "high_school": "Kennedy High",
+        "jersey_number": "25",
+        "name": "Terrance Townsend",
+        "position": "Shoot Grd",
+        "rating": "4"
+    }, {
+        "high_school": "Kennedy High",
+        "jersey_number": "33",
+        "name": "Jeremy Gibbs",
+        "position": "Shoot Grd",
+        "rating": "5"
+    }, {
+        "high_school": "Kennedy High",
+        "jersey_number": "2",
+        "name": "Johnny Hart",
+        "position": "Pt Guard",
+        "rating": "3"
+    }, {
+        "high_school": "Kennedy High",
+        "jersey_number": "67",
+        "name": "Chad Floures",
+        "position": "Shoot Grd",
+        "rating": "4"
+    }, {
+        "high_school": "Kennedy High",
+        "jersey_number": "5",
+        "name": "Lucas Horvath",
+        "position": "Center",
+        "rating": "5"
+    }, {
+        "high_school": "Kennedy High",
+        "jersey_number": "39",
+        "name": "Alan Russell",
+        "position": "Power Fwd",
+        "rating": "3"
+    }, {
+        "high_school": "Eisenhower High",
+        "jersey_number": "99",
+        "name": "Nelson Robbins",
+        "position": "Pt Guard",
+        "rating": "4"
+    }, {
+        "high_school": "Eisenhower High",
+        "jersey_number": "12",
+        "name": "Grant Ramsey",
+        "position": "Sm Fwd",
+        "rating": "3"
+    }, {
+        "high_school": "Eisenhower High",
+        "jersey_number": "81",
+        "name": "Brian Allesey",
+        "position": "Sm Fwd",
+        "rating": "5"
+    }, {
+        "high_school": "Eisenhower High",
+        "jersey_number": "44",
+        "name": "Pat Quinn",
+        "position": "Center",
+        "rating": "4"
+    }, {
+        "high_school": "Eisenhower High",
+        "jersey_number": "6",
+        "name": "Brendan Pratt",
+        "position": "Shoot Grd",
+        "rating": "4"
+    }, {
+        "high_school": "Eisenhower High",
+        "jersey_number": "18",
+        "name": "Ismael Topkya",
+        "position": "Shoot Grd",
+        "rating": "3"
+    }, {
+        "high_school": "Eisenhower High",
+        "jersey_number": "51",
+        "name": "Kerry Spencer",
+        "position": "Center",
+        "rating": "5"
+    }, {
+        "high_school": "Eisenhower High",
+        "jersey_number": "28",
+        "name": "Tom Holland",
+        "position": "Pt Guard",
+        "rating": "5"
+    }, {
+        "high_school": "Eisenhower High",
+        "jersey_number": "36",
+        "name": "Kent Clark",
+        "position": "Power Fwd",
+        "rating": "3"
+    }, {
+        "high_school": "Eisenhower High",
+        "jersey_number": "40",
+        "name": "Antonio Beuluge",
+        "position": "Shoot Grd",
+        "rating": "4"
+    }, {
+        "high_school": "Eisenhower High",
+        "jersey_number": "25",
+        "name": "Darrin Harrison",
+        "position": "Shoot Grd",
+        "rating": "5"
+    }, {
+        "high_school": "Eisenhower High",
+        "jersey_number": "13",
+        "name": "Brady Garrison",
+        "position": "Pt Guard",
+        "rating": "3"
+    }, {
+        "high_school": "Eisenhower High",
+        "jersey_number": "84",
+        "name": "Lester Ross",
+        "position": "Shoot Grd",
+        "rating": "4"
+    }, {
+        "high_school": "Eisenhower High",
+        "jersey_number": "71",
+        "name": "Clyde Flemming",
+        "position": "Center",
+        "rating": "5"
+    }, {
+        "high_school": "Eisenhower High",
+        "jersey_number": "28",
+        "name": "Marty Gilberts",
+        "position": "Power Fwd",
+        "rating": "3"
+    }, {
+        "high_school": "Capistrano High",
+        "jersey_number": "20",
+        "name": "Andy Ruiz",
+        "position": "Pt Guard",
+        "rating": "4"
+    }, {
+        "high_school": "Capistrano High",
+        "jersey_number": "43",
+        "name": "Jerome Rivera",
+        "position": "Sm Fwd",
+        "rating": "3"
+    }, {
+        "high_school": "Capistrano High",
+        "jersey_number": "64",
+        "name": "Zach Olson",
+        "position": "Sm Fwd",
+        "rating": "5"
+    }, {
+        "high_school": "Capistrano High",
+        "jersey_number": "71",
+        "name": "Logan Smith",
+        "position": "Center",
+        "rating": "4"
+    }, {
+        "high_school": "Capistrano High",
+        "jersey_number": "86",
+        "name": "Marcel Guerrero",
+        "position": "Shoot Grd",
+        "rating": "4"
+    }, {
+        "high_school": "Capistrano High",
+        "jersey_number": "7",
+        "name": "Woody Harrison",
+        "position": "Shoot Grd",
+        "rating": "3"
+    }, {
+        "high_school": "Capistrano High",
+        "jersey_number": "31",
+        "name": "Agripina Rooney",
+        "position": "Center",
+        "rating": "5"
+    }, {
+        "high_school": "Capistrano High",
+        "jersey_number": "29",
+        "name": "Tyson Neilsen",
+        "position": "Pt Guard",
+        "rating": "5"
+    }, {
+        "high_school": "Capistrano High",
+        "jersey_number": "15",
+        "name": "Louie Haden",
+        "position": "Power Fwd",
+        "rating": "3"
+    }, {
+        "high_school": "Capistrano High",
+        "jersey_number": "83",
+        "name": "Daniel Vaughn",
+        "position": "Shoot Grd",
+        "rating": "4"
+    }, {
+        "high_school": "Capistrano High",
+        "jersey_number": "34",
+        "name": "Lino Canfield",
+        "position": "Shoot Grd",
+        "rating": "5"
+    }, {
+        "high_school": "Capistrano High",
+        "jersey_number": "47",
+        "name": "Chance Maestas",
+        "position": "Pt Guard",
+        "rating": "3"
+    }, {
+        "high_school": "Capistrano High",
+        "jersey_number": "72",
+        "name": "Malik Compton",
+        "position": "Shoot Grd",
+        "rating": "4"
+    }, {
+        "high_school": "Capistrano High",
+        "jersey_number": "92",
+        "name": "Porter Leon",
+        "position": "Center",
+        "rating": "5"
+    }, {
+        "high_school": "Capistrano High",
+        "jersey_number": "35",
+        "name": "Rusty Fontenot",
+        "position": "Power Fwd",
+        "rating": "3"
+    }, {
+        "high_school": "Orange Terrace High",
+        "jersey_number": "95",
+        "name": "Sherman Sandoval",
+        "position": "Pt Guard",
+        "rating": "4"
+    }, {
+        "high_school": "Orange Terrace High",
+        "jersey_number": "83",
+        "name": "Donya Mabry",
+        "position": "Sm Fwd",
+        "rating": "3"
+    }, {
+        "high_school": "Orange Terrace High",
+        "jersey_number": "70",
+        "name": "Aaron Selby",
+        "position": "Sm Fwd",
+        "rating": "5"
+    }, {
+        "high_school": "Orange Terrace High",
+        "jersey_number": "29",
+        "name": "Elmer Foxx",
+        "position": "Center",
+        "rating": "4"
+    }
+]

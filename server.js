@@ -6,8 +6,8 @@ const routes = require("./ctrls");
 const sequelize = require("./cfg/connection");
 const exphbs = require("express-handlebars");
 const hbs = exphbs.create({ helpers: require("./util/helper") });
-// Creating express app and setting port
 
+// Creating express app and setting port
 const app = express();
 const PORT = process.env.PORT || 3001;
 // Setting up session object with secret, cookie, and store
@@ -23,8 +23,9 @@ const sess = {
 
 // Using session middleware with session object
 app.use(session(sess));
+// Bootstrap
+app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css'));
 // Parsing incoming JSON and URL-encoded data
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // IMPORTANT FOR PUBLIC FOLDERS - serving static files such as images from public directory
