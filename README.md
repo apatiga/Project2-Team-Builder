@@ -56,6 +56,7 @@ ChatGPT, W3 Schools, MDN, Tutorials: Dave Gray, Mosh, UCI Bootcamp TA's
 Random Name Generator, Drew Gilkey (private developer), Leon Vismer (professional tutor in So. Africa)
 
 
+
 ## License & Copyright ©
   
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [Open Source Initiative Link](https://opensource.org/licenses/MIT)
