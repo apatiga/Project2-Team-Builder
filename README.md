@@ -25,7 +25,7 @@ With 'Team Builder,' we aim to revolutionize the scouting process for high-schoo
 
 ## Learning Curves
 
-Trying to get routing to properly connect and setting up the entire mapped out idea within MVC. Heroku deployment had issues and we had to change all file folder names from using uppercase to lowercase to solve the issue Ie. Models to mdls and Public to pblic.
+Trying to get routing to properly connect and setting up the entire mapped out idea within MVC. Heroku deployment had issues and we had to change all file folder names from using uppercase to lowercase to solve the issue Ie. Models to mdls and Public to pblic, etc., this caused major issues as codes already written in routes all had to be found and changed as well.  Total nightmare!
 
 
 
@@ -34,6 +34,7 @@ Trying to get routing to properly connect and setting up the entire mapped out i
 1. Clone the Repository from GitHub 
 (or) Download Zip Folder from Repository from GitHub
 Open the cloned (or downloaded) repository in any source code editor.
+2. Deploy in Heroku via github.
 
 ## Usage Instructions
 
@@ -51,8 +52,9 @@ Wade Desco      *Github
 
 Pamela Nola     *Github
 
-ChatGPT, W3 Schools, MDN, Tutorials [   ], UCI Bootcamp TA's
-Random Name Generator
+ChatGPT, W3 Schools, MDN, Tutorials: Dave Gray, Mosh, UCI Bootcamp TA's
+Random Name Generator, Drew Gilkey (private developer), Leon Vismer (professional tutor in So. Africa)
+
 
 
 ## License & Copyright ©
@@ -108,6 +110,7 @@ SOFTWARE.
 * mysql2: 3.5.2
 * nodemon: 3.0.1
 * sequelize: 6.32.1
+* bootstrap: 5.3.1
 * faker-js/faker: 8.0.2
 * eslint: 8.45.0
 * eslint-config-prettier: 8.8.0

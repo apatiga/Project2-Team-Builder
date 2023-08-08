@@ -21,39 +21,14 @@
     min-height: 100vh;
   }
   
-  header {
-    padding: 40px;
-    text-align: center;
-    background: var(--primary);
-    color: var(--secondary);
-    border-bottom-style: solid;
+  @media screen and (max-width: 767px) and (orientation: portrait) {
+    /* CSS styles for tablets in portrait mode */
   }
   
-  main {
-    display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
+  @media screen and (max-width: 767px) {
+    /* CSS styles for smartphones */
   }
   
-  
-    
-    /* Responsive Features */
-    
-    @media screen and (min-width: 768px) {
-    }
-    
-    @media screen and (min-width: 768px) and (max-width: 1024px) {
-      /* CSS styles for tablets in landscape mode */
-    }
-    
-    @media screen and (max-width: 767px) and (orientation: portrait) {
-      /* CSS styles for tablets in portrait mode */
-    }
-    
-    @media screen and (max-width: 767px) {
-      /* CSS styles for smartphones */
-    }
-    
-    @media screen and (min-width: 1200px) {
-      /* CSS styles for large desktop screens */
-    }
+  @media screen and (min-width: 1200px) {
+    /* CSS styles for large desktop screens */
+  }
